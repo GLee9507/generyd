@@ -1,10 +1,12 @@
+package chapter1;
+
 import java.util.Stack;
 
 /**
  * p 1
  * 实现一个特殊的栈，在实现栈基本功能的基础上，实现返回最小值的操作
  */
-class Stack_1_1 {
+class StackForMin {
     private Stack<Integer> stack = new Stack<>();
     private Stack<Integer> minStack = new Stack<>();
 
