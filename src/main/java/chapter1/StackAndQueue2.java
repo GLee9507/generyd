@@ -3,6 +3,7 @@ package chapter1;
 import java.util.Stack;
 
 /**
+ * p 5
  * 使用两个栈实现队列，支持 add poll peek
  */
 class QueueByStack<T> {
