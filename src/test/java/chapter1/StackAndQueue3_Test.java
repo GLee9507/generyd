@@ -25,6 +25,11 @@ public class StackAndQueue3_Test {
         for (int i = 0; i < stack.size(); i++) {
             Assert.assertEquals(stack.pop().intValue(), i);
         }
+
+        InvertStack.invertStack(stack);
+        for (int i = 0; i < stack.size(); i++) {
+            Assert.assertEquals(stack.pop().intValue(), 99 - i);
+        }
     }
 
 
