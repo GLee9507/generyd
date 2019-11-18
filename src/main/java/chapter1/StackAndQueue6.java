@@ -11,6 +11,7 @@ import java.util.Stack;
  * 而是必须经过中间。求当塔有 N 层的时候，打印最优移动过程和最优移动总步数。
  */
 class Hannoi {
+    //TODO
     private Stack<Integer> lef = new Stack<>(), mid = new Stack<>(), rig = new Stack<>();
 
     {
@@ -21,68 +22,7 @@ class Hannoi {
         lef.push(1);
     }
 
-    /**
-     *一
-     * 1    x   x
-     * 2    x   x
-     * 3    x   x
-     *
-     *二
-     * x    x   x
-     * 2    x   x
-     * 3    1   x
-     *
-     *三
-     * x    x   x
-     * x    x   x
-     * 3    1   2
-     *
-     *四
-     * x    x   x
-     * x    x   1
-     * 3    x   2
-     *
-     *五
-     * x    x   x
-     * x    x   1
-     * x    3   2
-     *
-     *六
-     * x    x   x
-     * x    1   x
-     * x    3   2
-     *
-     *七
-     * x    x   x
-     * x    1   x
-     * 2    3   x
-     *
-     *八
-     * x    x   x
-     * 1    x   x
-     * 2    3   x
-     *
-     *九
-     * x    x   x
-     * 1    x   x
-     * 2    x   3
-     *
-     *十
-     * x    x   x
-     * x    x   x
-     * 2    1   3
-     *
-     *十一
-     * x    x   x
-     * x    x   2
-     * x    1   3
-     *
-     *十二
-     * x    x   1
-     * x    x   2
-     * x    x   3
-     */
     public void start() {
-
+        
     }
 }
