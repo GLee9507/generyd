@@ -10,10 +10,10 @@ public class StackAndQueue7_Test {
     @Test
     public void test() {
 //        int[] arr = {4, 3, 5, 4, 3, 3, 6, 7};
-        int[] arr = {7,2,4};
+        int[] arr = {7, 2, 4};
         int[] maxArray = SlidingWindowMaximum.getMaxArray(arr, 2);
         for (int i : maxArray) {
-        System.out.print(i+",");
+            System.out.print(i + ",");
         }
 
     }
